@@ -108,25 +108,17 @@ p{
 	background-color: black;
 	text-align: center;
 }
-.search{
-	background-color:transparent;
-	border: 2px solid #000;
-	padding: 20px;
-	width:100%;
-	border-radius:4px;
+ /*.search {
+	background-color:#efefef;
+    border-radius:4px;
 	font-size:20px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	font-weight: 500;
-	font-stretch: ultra-expanded;
 	color:#000;
-	margin-top:20px;
+	text-align:center;
 }
-button:hover{
-	background-color: aliceblue;
-	color: black;
-	border: 2px solid #363232;
-	
-}
+.search :hover{
+	border: 3px solid #000;
+} */
 .form-log{
 	padding:10px 40px;
 	margin:10px 20px;
@@ -137,10 +129,11 @@ button:hover{
 }
 .btn-sub{
   background-color: black;
-  color:#000;;
+  color:#fff;;
   margin-top:12px;
   margin-bottom:20px;
   font-size: 28px;
+  width:100%;
 }
 .btn-sub:hover{
 	background-color:#fff;
