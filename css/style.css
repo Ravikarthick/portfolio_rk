@@ -9,6 +9,9 @@ body{
   text-align: center; 
   background-image:url(../images/front-cover.jpg);
   background-size:cover;
+  background-attachment: inherit;
+	background-color:transparent;
+ 
 }
 .header .container {
 	position: relative;
