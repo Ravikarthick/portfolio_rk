@@ -116,6 +116,13 @@ p{
 	background-color: black;
 	text-align: center;
 }
+.header_logo_port{
+	background-color:whitesmoke;
+}
+.port_title{
+	font-size:58px;
+	color: black;
+}
  /*.search {
 	background-color:#efefef;
     border-radius:4px;
