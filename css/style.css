@@ -7,33 +7,53 @@ body{
 .header {
   height: 100vh;
   text-align: center; 
-  background-image:url(../images/front-cover.jpg);
-  background-size:cover;
+  background-image:url(../images/1.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-attachment: inherit;
-	background-color:transparent;
+  top: 0;
+right: 0;
+bottom: 0;
+left: 0
  
+}
+.nav .navbar-default .navbar-collapse{
+	background-color: transparent;
+	
 }
 .header .container {
 	position: relative;
 	top: 200px;
 }
-p{
+/*p{
 	font-size:4em;
 	line-height: 80px;
 	margin-top:0px;
 	margin-bottom: 30px;
 	color:#fff;
 	text-align: center;
-}
+}*/
+
 .description{
 	font-size:3em;
 }
-.title{
+/*.title{
 	color:#fff;
 	font-weight: 300;
 	font-size: 1.5em;
-}
+}*/
 /*Logo*/
+.name{
+	font-size:6em;
+	color:#fff;
+}
+.title{
+	font-size:2em;
+	color:#fff;
+	font-weight:200;
+}
 .logo{
 	height:120px;
 	width: 120px;
@@ -41,9 +61,15 @@ p{
 }
 
 /*Navigation Menu*/
+.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+	
+}
 .navbar-default .navbar-nav{
 	display: inline-block;
 	float:none;
+
 }
 .navbar-default .navbar-collapse{
 	text-align: center;
@@ -52,6 +78,47 @@ p{
 	color:#E74B4E;
 	font-size:24px;
 	padding: 20px 30px;
+
+}.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  border:solid 0px 0px 0px 1px red;
+  background-color: #efefef;
+  
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-size: cover;
+    background-color: #e7e7e7;
+}
+/*.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 39px 9px;
+    margin-top: 8px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    background-image: none;
+    border: none; 
+}*/
+.icon-bar{
+	color: #C70306;
+}
+
+
+/*div#collapse.navbar-collapse.in{
+	background-color: #efefef;
+	background-size: cover;
+	height: 100%;
+	color:#000;
+    left:0;
+	right:0;
+	position: relative;
 }
 
 /*Recent*/
@@ -76,6 +143,14 @@ p{
 /*about*/
 .profile{
 	 height: 100vh;
+}
+.des_port{
+ color: #706f6f;
+    font-size: 1.3em;
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+	line-height: 140%;
 }
 .about{
 	 font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
@@ -154,3 +229,292 @@ p{
 	background-color:#fff;
 	color:#000;
 }
+
+
+/*Media Quries
+@media screen and (max-device-width: 320px)
+	          and (max-device-width: 375px)
+ 			  and (max-device-width: 480px)
+              and (max-device-width: 667px){
+	.name{
+		font-size:2em;
+	}
+}
+*/
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.5em;
+	color:#fff;
+	font-weight:200;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.5em;
+	color:#fff;
+	font-weight:200;
+}
+
+}
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.5em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	   .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.8em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	   .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.8em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	   .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:0.8em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+    .title{
+	font-size:1em;
+	color:#fff;
+	font-weight:200;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:1em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+	  .name{
+		font-size:2em;
+		color:#fff;
+	}
+	  .title{
+	font-size:1em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.name{
+		font-size:3em;
+		color:#fff;
+	}
+	  .title{
+	font-size:1.3em;
+	color:#fff;
+	font-weight:200;
+}
+
+}
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+	  .name{
+		font-size:3em;
+	}
+	  .title{
+	font-size:1.3em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	  .name{
+		font-size:3em;
+	}
+	  .title{
+	font-size:1.3em;
+	color:#fff;
+	font-weight:200;
+}
+
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 3200px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	  name{
+		font-size:64px;
+	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 3200px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+	  name{
+		font-size:64px;
+	}
+}
+
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
