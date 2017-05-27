@@ -147,7 +147,7 @@ left: 0
 	 height: 100vh;
 }
 .des_port{
- color: #706f6f;
+   color: #fff;
     font-size: 1.3em;
     margin-left: 20%;
     text-align: center;
@@ -191,14 +191,13 @@ left: 0
 	text-align: center;
 }
 .footer{
-	 height: 100vh;
+	height: 30vh;
 	padding-top: 120px;
-	padding-bottom: 120px;
 }
 .footer1{
 	 height: 20vh;
 	padding-top: 20px;
-	padding-bottom: 20px;
+
 }
 .copy p{
 	font-size: 18px;
@@ -216,7 +215,7 @@ left: 0
 }
 .port_title{
 	font-size:58px;
-	color: black;
+	color: #fff;
 }
  /*.search {
 	background-color:#efefef;
@@ -246,10 +245,14 @@ left: 0
   width:100%;
 }
 .btn-sub:hover{
-	background-color:#fff;
+	background-color:#ffffff;
 	color:#000;
 }
-
+/*Blog*/
+.blogfont{
+	font-family: 'Bree Serif', serif;
+	
+}
 
 /*Media Quries
 @media screen and (max-device-width: 320px)
